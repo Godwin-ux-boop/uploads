@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="upload.css">
+    <title>UPLOAD PAGE</title>
+</head>
+<body>
+    
+    <div class="maincontainer">
+            <div  class="containers" >
+           
+                <span><img class="logo" src="sacred-heart-nsoatre-badge.jpg" alt="logo"></span>
+                <span class="mid">Prefect - Candidate Upload </span>
+                <span><img class="logo" src="sacred-heart-nsoatre-badge.jpg" alt="logo"></span>
+                
+            </div>
+
+        
+
+         <div class="Allinfo">
+             <div class="moveinfo">  
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <div class="infocontainer">
+                    <p><span class="head">UPLOAD THE CANDIDATE DETAILS</span></p>
+    
+                </div>
+              <div class="Candidateinfo">
+                <fieldset>
+                    <label><b>Candidate Name :</b></label>
+                    <input type="text"  id="name" name="name">
+                </fieldset>
+                 
+              
+
+                <fieldset>
+                    <label><b>Choose Candidate Photo :</b></label>
+                   <input type="file" accept="image/*" id="image" name="image">
+                </fieldset>
+
+                <fieldset>
+                    <label><b>Candidate Position : </b></label>
+                   <select  id="table" name="table">
+                    <option value="schoolprefect">Senior Prefect</option>
+                    <option value="srcprefect">SRC Prefect</option>
+                    <option value="headboy"> Head Boy</option>
+                    <option value="headgirl">Head Girl</option>
+                    <option value="compoundoverseer">Compoud Overseer</option>
+                    <option value="Entertainment">Entertainment Prefect</option>
+                    <option value="Sportsprefect">Sports Prefect</option>
+                     <option value="dinninghall">Dinning Hall Prefect</option>
+                     <option value="sanitoryprefect">Sanitory Prefect</option>
+                     <option value="healthprefect">Health Prefect</option>
+                     <option value="libraryprefect">Library Prefect</option>
+                   </select>
+                </fieldset>
+                
+            
+                <button type="submit">UPLOAD</button>
+
+            </div>
+        </form>
+        </div>  
+       
+        </div>
+
+    </div>   
+                <div class="bottom">&copy;This is the official voting systen of Sacred Heart Seenior High School</div>        
+    </div>
+    
+</body>
+</html>
